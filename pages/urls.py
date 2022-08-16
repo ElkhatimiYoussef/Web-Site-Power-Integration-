@@ -3,4 +3,7 @@ from . import views #Pour importer view
 
 urlpatterns = [
     path('', views.home, name='home'), #it's how we create a view call home
+    path('about', views.about, name='about'),
+    path('services', views.services, name='services'),
+    path('contact', views.contact, name='contact'),
 ]
